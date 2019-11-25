@@ -1,9 +1,9 @@
 import React from 'react'
 
 const MoreButton = (props) => {
-    return <button onClick={/* Fill me in! */ null}>
+    return <button onClick={(event) => props.moreSushi(event)}>
             More sushi!
           </button>
 }
 
-export default MoreButton
+export default MoreButton  
